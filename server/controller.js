@@ -14,7 +14,6 @@ module.exports = {
             price: +price,
             imageURL
         }
-        console.log(house)
         id++;
         houses.push(house)
         res.status(200).send(houses)
